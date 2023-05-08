@@ -1,3 +1,7 @@
+# Personal
+template/compile_commands.json
+template/.cache/
+
 # Prerequisites
 *.d
 
