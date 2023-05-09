@@ -74,7 +74,8 @@ inline std::vector<std::string> ParseToStrings(std::string input) {
     std::vector<std::string> ret;
     std::string s;
     int i = 0;
-    while (i < input.size()) {
+    int n = input.size();
+    while (i < n) {
         if (input[i] == '"') {
             ++i;
             while (input[i] != '"') {
